@@ -1,0 +1,67 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+html {
+ line-height: 1.15;
+ -webkit-text-size-adjust: 100%;
+}
+header,
+section,
+main,
+nav,
+footer,
+article,
+figure,
+hgroup {
+ display: block;
+ width: 100%;
+}
+body{
+    font-family: sans-serif;
+}
+/* end normalize */
+/* common */
+/* 
+- opacity hover
+- general header  
+- sction padding
+- hover effect ltr
+- hover top to bottom
+- container
+*/
+.container{
+    width: 80%;
+    margin: auto;
+}
+.clear{
+    clear: both;  /*to solve float problem*/
+}
+/* header */
+header{
+    background-color: gray;
+}
+header .logo{
+    width: 40%;
+    float: left;
+    padding-top: 20px;
+}
+header .logo h2{
+    text-transform: uppercase;
+    font-weight: 800;
+}
+header .nav{
+    width: 60%;
+    float: left;
+    list-style: none;
+}
+header .nav li {
+    display: inline-block;
+}
+header .nav li a{
+    color: white;
+    text-decoration: none;
+    padding: 30px 10px;
+    display: block;
+
+}
